@@ -21,6 +21,7 @@ var getUserRepos = function(user) {
         }
     })
     .catch(function(error){
+        // handle network errors
         alert("Unable to connect to Github");
     });
 };
